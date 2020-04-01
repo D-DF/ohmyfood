@@ -1,0 +1,389 @@
+.menu-3 {
+    @include menu-typo;
+    background-color: $fond-menu-3;
+    padding-bottom: 80px;
+}
+
+.menu-3__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .menu-3__title-h2 {
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.menu-3__h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .menu-3__title-h3 {
+        @include color-menu-3;
+        font-size: 50Px;
+    }
+}
+
+.menu-3__title-h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .menu-3__barre-l {
+        width: 250px;
+        padding-right: 20px;
+    }
+    .menu-3__barre-r {
+        width: 250px;
+        padding-left: 20px;
+    }
+    .menu-3__h4 {
+        font-family: 'Caveat', cursive;
+        font-size: 30px;
+    }
+}
+
+.menu-3-1__title-h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $text-menu-3;
+    .menu-3-1__barre-l {
+        width: 250px;
+        padding-right: 20px;
+    }
+    .menu-3-1__barre-r {
+        width: 250px;
+        padding-left: 20px;
+    }
+    .menu-3-1__h4 {
+        font-family: 'Caveat', cursive;
+        font-size: 30px;
+        padding-top: 5px;
+    }
+}
+
+.menu-3-2__title-h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $text-menu-3;
+    .menu-3-2__barre-l {
+        width: 250px;
+        padding-right: 20px;
+    }
+    .menu-3-2__barre-r {
+        width: 250px;
+        padding-left: 20px;
+    }
+    .menu-3-2__h4 {
+        font-family: 'Caveat', cursive;
+        font-size: 30px;
+        padding-top: 7px;
+    }
+}
+
+.menu-3-le-chic{
+    padding-bottom: 50px;
+}
+
+.menu-3__list-1 {
+    @extend .menu-list;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: $text-menu-3;
+}
+
+.menu-3-2__list-1 {
+    @extend .menu-list;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: $text-menu-3;
+}
+
+.menu-3-3__list-1 {
+    @extend .menu-list;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: $text-menu-3;
+}
+
+.menu-3-la-note-final {
+    padding-bottom: 50px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.menu-3-h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .menu-3-musique {
+        width: 60px;
+        padding-right: 5px;
+    }
+    .menu-3-final {
+        font-size: 24px;
+        font-family: 'devonshire', cursive;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .menu-3 {
+    width: 90%;
+    }
+
+    .menu-3__title-h4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .menu-3__barre-l {
+            width: 200px;
+            padding-right: 20px;
+        }
+        .menu-3__barre-r {
+            width: 200px;
+            padding-left: 20px;
+        }
+        .menu-3__h4 {
+            font-family: 'Caveat', cursive;
+            font-size: 25px;
+        }
+    }
+    
+    .menu-3-1__title-h4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: $text-menu-3;
+        .menu-3-1__barre-l {
+            width: 200px;
+            padding-right: 20px;
+        }
+        .menu-3-1__barre-r {
+            width: 200px;
+            padding-left: 20px;
+        }
+        .menu-3-1__h4 {
+            font-family: 'Caveat', cursive;
+            font-size: 25px;
+            padding-top: 5px;
+        }
+    }
+    
+    .menu-3-2__title-h4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: $text-menu-3;
+        .menu-3-2__barre-l {
+            width: 200px;
+            padding-right: 20px;
+        }
+        .menu-3-2__barre-r {
+            width: 200px;
+            padding-left: 20px;
+        }
+        .menu-3-2__h4 {
+            font-family: 'Caveat', cursive;
+            font-size: 25px;
+            padding-top: 7px;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .menu-3 {
+        width: 90%;
+        }
+    
+        .menu-3__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .menu-3__barre-l {
+                width: 170px;
+                padding-right: 20px;
+            }
+            .menu-3__barre-r {
+                width: 170px;
+                padding-left: 20px;
+            }
+            .menu-3__h4 {
+                font-family: 'Caveat', cursive;
+                font-size: 20px;
+            }
+        }
+        
+        .menu-3-1__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-3;
+            .menu-3-1__barre-l {
+                width: 170px;
+                padding-right: 20px;
+            }
+            .menu-3-1__barre-r {
+                width: 170px;
+                padding-left: 20px;
+            }
+            .menu-3-1__h4 {
+                font-family: 'Caveat', cursive;
+                font-size: 20px;
+                padding-top: 5px;
+            }
+        }
+        
+        .menu-3-2__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-3;
+            .menu-3-2__barre-l {
+                width: 170px;
+                padding-right: 20px;
+            }
+            .menu-3-2__barre-r {
+                width: 170px;
+                padding-left: 20px;
+            }
+            .menu-3-2__h4 {
+                font-family: 'Caveat', cursive;
+                font-size: 20px;
+                padding-top: 7px;
+            }
+        }
+
+        .menu-3__list-1 {
+            @include menu-list-2-750px;
+            font-family: 'Caveat', cursive;
+            font-size: 20px;
+            color: $text-menu-3;
+        }
+        
+        .menu-3-2__list-1 {
+            @include menu-list-2-750px;
+            font-family: 'Caveat', cursive;
+            font-size: 20px;
+            color: $text-menu-3;
+        }
+        
+        .menu-3-3__list-1 {
+            @include menu-list-2-750px;
+            font-family: 'Caveat', cursive;
+            font-size: 20px;
+            color: $text-menu-3;
+        }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-3 {
+        width: 90%;
+        }
+
+        .menu-3__h3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Dancing Script', cursive;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            .menu-3__title-h3 {
+                @include color-menu-3;
+                font-size: 25Px;
+            }
+        }
+    
+        .menu-3__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            .menu-3__barre-l {
+                width: 60px;
+                padding-right: 10px;
+            }
+            .menu-3__barre-r {
+                width: 60px;
+                padding-left: 10px;
+            }
+            .menu-3__h4 {
+                font-family: 'Caveat', cursive;
+                font-size: 22px;
+            }
+        }
+        
+        .menu-3-1__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-3;
+            text-align: center;
+            .menu-3-1__barre-l {
+                width: 60px;
+                padding-right: 10px;
+            }
+            .menu-3-1__barre-r {
+                width: 60px;
+                padding-left: 10px;
+            }
+            .menu-3-1__h4 {
+                font-family: 'Caveat', cursive;
+                font-size: 22px;
+                padding-top: 5px;
+            }
+        }
+        
+        .menu-3-2__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-3;
+            text-align: center;
+            .menu-3-2__barre-l {
+                width: 60px;
+                padding-right: 10px;
+            }
+            .menu-3-2__barre-r {
+                width: 60px;
+                padding-left: 10px;
+            }
+            .menu-3-2__h4 {
+                font-family: 'Caveat', cursive;
+                font-size: 22px;
+                padding-top: 7px;
+            }
+        }
+
+        .menu-3__list-1 {
+            @include menu-list-2-750px;
+            font-family: 'Caveat', cursive;
+            font-size: 20px;
+            color: $text-menu-3;
+        }
+        
+        .menu-3-2__list-1 {
+            @include menu-list-2-750px;
+            font-family: 'Caveat', cursive;
+            font-size: 20px;
+            color: $text-menu-3;
+        }
+        
+        .menu-3-3__list-1 {
+            @include menu-list-2-750px;
+            font-family: 'Caveat', cursive;
+            font-size: 20px;
+            color: $text-menu-3;
+        }
+}
+
+
+
+

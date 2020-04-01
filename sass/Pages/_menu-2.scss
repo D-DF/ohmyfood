@@ -1,0 +1,460 @@
+.menu-2 {
+    @include menu-typo;
+    background-color: $fond-menu-2;
+    padding-bottom: 80px;
+}
+
+.menu-2__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .menu-2__title-h2 {
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.menu-2__h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Croissant One', cursive;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .menu-2__title-h3 {
+        @include color-menu-2;
+        font-size: 35Px;
+    }
+}
+
+.menu-2__title-h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $text-menu-2;
+    .menu-2__barre-l {
+        width: 250px;
+        padding-right: 20px;
+    }
+    .menu-2__barre-r {
+        width: 250px;
+        padding-left: 20px;
+    }
+    .menu-2__h4 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 20px;
+        padding-top: 8px;
+    }
+}
+
+.menu-2-1__title-h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $text-menu-2-2;
+    .menu-2-1__barre-l {
+        width: 250px;
+        padding-right: 20px;
+    }
+    .menu-2-1__barre-r {
+        width: 250px;
+        padding-left: 20px;
+    }
+    .menu-2-1__h4 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 20px;
+        padding-top: 8px;
+    }
+}
+
+.menu-2-2__title-h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $text-menu-2-3;
+    .menu-2-2__barre-l {
+        width: 250px;
+        padding-right: 20px;
+    }
+    .menu-2-2__barre-r {
+        width: 250px;
+        padding-left: 20px;
+    }
+    .menu-2-2__h4 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 20px;
+        padding-top: 8px;
+    }
+}
+
+
+
+.menu-2-le-chic{
+    padding-bottom: 50px;
+}
+
+.menu-2__list-1 {
+    @extend .menu-list-2;
+    color: $text-menu-2;
+}
+
+.menu-2-2__list-1 {
+    @extend .menu-list-2;
+    color: $text-menu-2-2;
+}
+
+.menu-2-3__list-1 {
+    @extend .menu-list-2;
+    color: $text-menu-2-3;
+}
+
+.menu-2-la-note-final {
+    padding-bottom: 50px;
+}
+
+.menu-2-h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .menu-2-musique {
+        width: 60px;
+        padding-right: 5px;
+    }
+    .menu-2-final {
+        font-size: 24px;
+        font-family: 'devonshire', cursive;
+    }
+}
+
+
+    @media screen and (max-width: 1050px) {
+
+        .menu-2 {
+            width: 90%;
+            font-size: 15px;
+        }
+
+        .menu-2__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-2;
+            .menu-2__barre-l {
+                width: 200px;
+                padding-right: 20px;
+            }
+            .menu-2__barre-r {
+                width: 200px;
+                padding-left: 20px;
+            }
+            .menu-2__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 18px;
+                padding-top: 8px;
+            }
+        }
+        
+        .menu-2-1__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-2-2;
+            .menu-2-1__barre-l {
+                width: 200px;
+                padding-right: 20px;
+            }
+            .menu-2-1__barre-r {
+                width: 200px;
+                padding-left: 20px;
+            }
+            .menu-2-1__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 18px;
+                padding-top: 8px;
+            }
+        }
+        
+        .menu-2-2__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-2-3;
+            .menu-2-2__barre-l {
+                width: 200px;
+                padding-right: 20px;
+            }
+            .menu-2-2__barre-r {
+                width: 200px;
+                padding-left: 20px;
+            }
+            .menu-2-2__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 18px;
+                padding-top: 8px;
+            }
+        }
+        .menu-2__list-1 {
+            @include menu-list-2-1000px;
+            color: $text-menu-2;
+        }
+        
+        .menu-2-2__list-1 {
+            @include menu-list-2-1000px;
+            color: $text-menu-2-2;
+        }
+        
+        .menu-2-3__list-1 {
+            @include menu-list-2-1000px;
+            color: $text-menu-2-3;
+        }
+    }
+
+
+
+
+
+
+    @media screen and (max-width: 750px) {
+        .menu-2 {
+            width: 90%;
+            font-size: 15px;
+        }
+
+        .menu-2__h3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Croissant One', cursive;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            .menu-2__title-h3 {
+                @include color-menu-2;
+                font-size: 25Px;
+            }
+        }
+
+        .menu-2__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            color: $text-menu-2;
+            .menu-2__barre-l {
+                width: 100px;
+                padding-right: 20px;
+            }
+            .menu-2__barre-r {
+                width: 100px;
+                padding-left: 20px;
+            }
+            .menu-2__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 14px;
+                padding-top: 8px;
+            }
+        }
+        
+        .menu-2-1__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-2-2;
+            text-align: center;
+            .menu-2-1__barre-l {
+                width: 100px;
+                padding-right: 20px;
+            }
+            .menu-2-1__barre-r {
+                width: 100px;
+                padding-left: 20px;
+            }
+            .menu-2-1__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 14px;
+                padding-top: 8px;
+            }
+        }
+        
+        .menu-2-2__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-2-3;
+            text-align: center;
+            .menu-2-2__barre-l {
+                width: 100px;
+                padding-right: 20px;
+            }
+            .menu-2-2__barre-r {
+                width: 100px;
+                padding-left: 20px;
+            }
+            .menu-2-2__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 14px;
+                padding-top: 8px;
+            }
+        }
+        .menu-2__list-1 {
+            @include menu-list-2-750px;
+            color: $text-menu-2;
+        }
+        
+        .menu-2-2__list-1 {
+            @include menu-list-2-750px;
+            color: $text-menu-2-2;
+        }
+        
+        .menu-2-3__list-1 {
+            @include menu-list-2-750px;
+            color: $text-menu-2-3;
+        }
+    }
+
+
+    @media screen and (max-width: 400px) {
+
+        .menu-2__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            color: $text-menu-2;
+            .menu-2__barre-l {
+                width: 100px;
+                padding-right: 10px;
+            }
+            .menu-2__barre-r {
+                width: 100px;
+                padding-left: 10px;
+            }
+            .menu-2__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 12px;
+                padding-top: 8px;
+            }
+        }
+        
+        .menu-2-1__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-2-2;
+            text-align: center;
+            .menu-2-1__barre-l {
+                width: 100px;
+                padding-right: 10px;
+            }
+            .menu-2-1__barre-r {
+                width: 100px;
+                padding-left: 10px;
+            }
+            .menu-2-1__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 14px;
+                padding-top: 8px;
+            }
+        }
+        .menu-2-2__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-2-3;
+            text-align: center;
+            .menu-2-2__barre-l {
+                width: 80px;
+                padding-right: 20px;
+            }
+            .menu-2-2__barre-r {
+                width: 80px;
+                padding-left: 20px;
+            }
+            .menu-2-2__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 14px;
+                padding-top: 8px;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .menu-2__h3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Croissant One', cursive;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            .menu-2__title-h3 {
+                @include color-menu-2;
+                font-size: 20Px;
+            }
+        }
+
+        .menu-2__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            color: $text-menu-2;
+            .menu-2__barre-l {
+                width: 80px;
+                padding-right: 10px;
+            }
+            .menu-2__barre-r {
+                width: 80px;
+                padding-left: 10px;
+            }
+            .menu-2__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 12px;
+                padding-top: 8px;
+            }
+        }
+        
+        .menu-2-1__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-2-2;
+            text-align: center;
+            .menu-2-1__barre-l {
+                width: 80px;
+                padding-right: 10px;
+            }
+            .menu-2-1__barre-r {
+                width: 80px;
+                padding-left: 10px;
+            }
+            .menu-2-1__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 12px;
+                padding-top: 8px;
+            }
+        }
+        .menu-2-2__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $text-menu-2-3;
+            text-align: center;
+            .menu-2-2__barre-l {
+                width: 80px;
+                padding-right: 20px;
+            }
+            .menu-2-2__barre-r {
+                width: 80px;
+                padding-left: 20px;
+            }
+            .menu-2-2__h4 {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 12px;
+                padding-top: 8px;
+            }
+        }
+    }

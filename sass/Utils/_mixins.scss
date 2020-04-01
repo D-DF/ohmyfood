@@ -1,0 +1,72 @@
+@mixin color-menu-1 {
+    background: -webkit-linear-gradient(-45deg, black 10%, black 60%, black 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin color-menu-2 {
+    background: -webkit-linear-gradient(-45deg, #d17122 10%, #a6669a 60%, #6b30eb 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin color-menu-3 {
+    background: -webkit-linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin color-menu-4 {
+    background: -webkit-linear-gradient(-45deg, #55924d 10%, #c8fa80 60%, #c8fa80 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin menu-typo {
+    width: 55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+    box-shadow: 0.5px 0.5px 8px #d6d6d6;
+}
+
+@mixin menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'kalam', cursive;
+    padding-top: 20px;
+}
+
+@mixin menu-list-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Crimson Text', serif;
+    padding-top: 20px;
+    padding-left: 130px;
+    padding-right: 140px;
+}
+
+@mixin menu-list-2-1000px {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Crimson Text', serif;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 90px;
+}
+
+@mixin menu-list-2-750px {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 90px;
+}

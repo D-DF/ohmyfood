@@ -1,0 +1,188 @@
+// menu la note enchantée
+
+.menu-1 {
+    @include menu-typo;
+    background-color: $fond-menu-1;
+    padding-bottom: 80px;
+}
+
+.menu-1__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .menu-1__title-h2 {
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.menu-1__h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'devonshire', cursive;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    .menu-1__title-h3 {
+        @include color-menu-1;
+        font-size: 35Px;
+    }
+
+    .menu-1__note {
+        width: 70px;
+        padding-bottom: 5px;
+    }
+}
+
+.menu-1__title-h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .menu-1__barre-l {
+        width: 250px;
+        padding-right: 20px;
+    }
+
+    .menu-1__barre-r {
+        width: 250px;
+        padding-left: 20px;
+    }
+
+    .menu-1__h4 {
+        font-family: 'kalam', cursive;
+        font-size: 25px;
+    }
+}
+
+.menu-1-la-note {
+    padding-bottom: 50px;
+}
+
+.menu-1__list-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'kalam', cursive;
+    padding-top: 20px;
+}
+
+.menu-1-la-note-final {
+    padding-bottom: 50px;
+}
+
+.menu-1-h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .menu-1-musique {
+        width: 60px;
+        padding-right: 5px;
+    }
+
+    .menu-1-final {
+        font-size: 24px;
+        font-family: 'devonshire', cursive;
+        @include color-menu-1;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .menu-1 {
+        width: 70%;
+        font-size: 15px;
+    }
+    .menu-1__list-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+        padding-left: 10Px;
+    }
+
+    .menu-1__title-h4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .menu-1__barre-l {
+            width: 150px;
+            padding-right: 10px;
+        }
+
+        .menu-1__barre-r {
+            width: 150px;
+            padding-left: 10px;
+        }
+
+        .menu-1__h4 {
+            font-family: 'kalam', cursive;
+            font-size: 18px;
+        }
+    }
+}
+    @media screen and (max-width: 750px) {
+    
+        header {
+            width: 100%;
+            font-size: 20px;
+        }
+
+        h1 a {
+            font-size: 35px;
+        }
+
+        .menu-1 {
+            width: 90%;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .menu-1__list-1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-right: 10px;
+            padding-left: 10Px;
+        }
+
+        .menu-1__title-h4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            .menu-1__barre-l {
+                width: 90px;
+                padding-right: 10px;
+            }
+
+            .menu-1__barre-r {
+                width: 90px;
+                padding-left: 10px;
+            }
+
+            .menu-1__h4 {
+                font-family: 'kalam', cursive;
+                font-size: 15px;
+            }
+        }
+        .menu-1-h5 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            .menu-1-musique {
+                width: 40px;
+            }
+        
+            .menu-1-final {
+                font-size: 18px;
+            }
+        }
+    }

@@ -1,0 +1,121 @@
+.menu {
+	margin-bottom: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bloc-1, .bloc-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.menu__menu-1 {
+	@extend .typography;
+	background-color: $fond-menu-1;
+	margin-right: 30px;	
+	.menu__menu-1__img {
+		width: 72px;
+		padding-bottom: 10px;
+	}
+	.menu__menu-1__title {
+		font-family: 'Devonshire', cursive;
+		font-size: 34px;
+		padding-bottom: 20px;
+		@include color-menu-1;
+	}
+
+	.menu__menu-1__p {
+		font-size: 34px;
+		font-family: 'Itim', cursive;
+		color: $text-menu-1;
+	}
+}
+
+.menu__menu-2 {
+	@extend .typography;
+	background-color: #fff5fe;	
+	.menu__menu-2__title {
+		font-family: 'Kurale', serif;
+		font-size: 23px;
+		margin-bottom: 20px;
+		@include color-menu-2;
+	}
+	.menu__menu-2__p {
+		font-size: 28px;
+		font-family: 'Abril Fatface', cursive;
+		color: #c8750a;
+	}
+}
+
+.menu__menu-3 {
+	@extend .typography;
+	background-color: #f9f9f9;
+	margin-right: 30px;		
+	.menu__menu-3__title {
+		font-family: 'Dancing Script', cursive;
+		font-size: 30px;
+		padding-bottom: 20px;
+		@include color-menu-3;
+	}
+	.menu__menu-3__p {
+		font-size: 32px;
+		font-family: 'Chilanka', cursive;
+		color: #0188fb;
+	}
+}
+
+.menu__menu-4 {
+	@extend .typography;
+	background-color: #fdfffd;	
+	.menu__menu-4__title {
+		font-family: 'Kaushan Script', cursive;
+		font-size: 30px;
+		padding-bottom: 20px;
+		@include color-menu-4;
+	}
+	.menu__menu-4__p {
+		font-size: 32px;
+		font-family: 'Chilanka', cursive;
+		color: #73c055;
+	}
+}
+
+.point {
+    font-size: 20px;
+    -webkit-animation: suspension ease 1s infinite;
+    position: relative;
+    color: $color-title;
+}
+
+.point-2 {
+    font-size: 20px;
+    -webkit-animation: suspension ease-in-out 1s infinite;
+    position: relative;
+    color: $color-title;
+}
+
+.point-3 {
+    font-size: 20px;
+    -webkit-animation: suspension ease-in 1s infinite;
+    position: relative;
+    color: $color-title;
+}
+
+@media screen and (max-width: 750px) {
+	.container {
+		width: 100%;
+	}
+	.bloc-1, .bloc-2 {
+		display: flex;
+		flex-direction: column;
+	}
+	.menu__menu-1, .menu__menu-3 {
+		margin-right: 0px;
+		margin-bottom: 30px;
+	}	
+}
